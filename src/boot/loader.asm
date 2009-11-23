@@ -5,7 +5,7 @@ jmp Start				; skip the data
 
 MTest:		db "This is a test string!  "
 EMTest:
-MTest2:		db "This is another test string!  "
+MTest2:		db "This is another test string!"
 EMTest2:
 
 Start:
