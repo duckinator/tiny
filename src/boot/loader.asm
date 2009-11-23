@@ -3,9 +3,9 @@ org 7C00h
 global Print				; allow everything to access Print
 jmp Start				; skip the data
 
-MTest:		db "This is a test string!  "
+MTest:		db "This is a test string! "
 EMTest:
-MTest2:		db "This is another test string!  "
+MTest2:		db "This is another test string! "
 EMTest2:
 
 Start:
