@@ -1,4 +1,3 @@
-bits 16
 org 7C00h
 
 mov ah, 0xe
