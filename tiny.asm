@@ -6,7 +6,7 @@ mov si, string
 print:
 	lodsb
 	int 0x10
-	or al, al
-	jne print
+	cmp al, 0
+	jnz print
 
 string  db  "Hello, world!", 0
