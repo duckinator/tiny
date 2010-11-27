@@ -5,8 +5,9 @@ mov ah, 0xe
 mov si, string
 print:
 	lodsb
-	int 0x10
 	cmp al, 0
-	jnz print
+	jz $
+	int 0x10
+	jmp print
 
 string  db  "Hello, world!", 0
